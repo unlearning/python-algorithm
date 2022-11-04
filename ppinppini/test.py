@@ -1,0 +1,2 @@
+def solt():
+  return a
