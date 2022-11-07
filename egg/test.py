@@ -23,3 +23,24 @@ def solution(slice, n):
 # 피자 나눠 먹기 저번 설명
 def solution(slice, n):
     return (n-1)//slice +1
+
+
+# 점의 위치 구하기
+
+def solution(dot):
+    answer = 0
+
+    if dot[0] < 0 :
+        if dot[1] < 0 :
+            answer = 3
+        else :
+            answer = 2
+    else :
+        if dot[1] < 0 :
+            answer = 4
+        else :
+            answer = 1
+            
+    return answer
+
+
