@@ -19,3 +19,7 @@ def solution(slice, n):
     else :
         answer = n//slice + 1
     return answer
+
+# 피자 나눠 먹기 저번 설명
+def solution(slice, n):
+    return (n-1)//slice +1
