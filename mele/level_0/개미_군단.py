@@ -7,5 +7,5 @@ def solution(hp):
     return a+c+d
 
 # 다른 사람 풀이
-def solution(hp):    
+def solution(hp):
     return hp // 5 + (hp % 5 // 3) + ((hp % 5) % 3)
