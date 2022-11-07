@@ -11,7 +11,7 @@ def solution(price):
     else:
         return price
 
-# 다른 사람 풀이2
+# 다른 사람 풀이
 def solution(price):
     discount_rates = {
         500000: 0.8,
