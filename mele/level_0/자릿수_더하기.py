@@ -18,3 +18,10 @@ def solution(n):
         n, r = divmod(n, 10)
         answer += r
     return answer
+
+# 유빈's
+def solution(N):
+    answer = 0
+    for n in str(N):
+        answer+=int(n)
+    return answer
