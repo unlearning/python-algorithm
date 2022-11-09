@@ -23,5 +23,3 @@ def solution(letter):
         '-.--':'y','--..':'z'
     }
     return ''.join([morse[i] for i in letter.split(' ')]) # {dict} - join() 안에 []가 없다면 값이 아닌 객체로 반환
-
-print(solution(".... . .-.. .-.. ---"))
