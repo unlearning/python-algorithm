@@ -6,9 +6,8 @@ def solution(my_string):
 
 # 다른 사람 풀이
 def solution(my_string):
-    return "".join([i for i in my_string if i not in "aeiou"])
+    return "".join([i for i in my_string if not(i in "aeiou")])
 
-# TODO: 이해해보기
 import re
 def solution(my_string):
     return re.sub(r"a|e|i|o|u", "", my_string)
