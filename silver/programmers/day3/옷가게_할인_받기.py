@@ -14,10 +14,12 @@ def solution(price):
 
 # 2.
 def solution(price):
-    if price>=500000: # 왜 거꾸로 진행하면 안될까?
+    if price>=500000:
         price = price *0.8
     elif price>=300000:
         price = price *0.9
     elif price>=100000:
         price = price * 0.95
     return int(price)
+
+# dict : if문을 없앨 수 있는 방법
