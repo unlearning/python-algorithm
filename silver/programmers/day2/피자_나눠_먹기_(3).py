@@ -7,3 +7,7 @@ def solution(slice, n):
 # 2.
 def solution(slice, n):
     return ((n - 1) // slice) + 1
+
+# 3.
+def solution(slice, n):
+    return -(n//slice) # -1.1 -- // --> -2

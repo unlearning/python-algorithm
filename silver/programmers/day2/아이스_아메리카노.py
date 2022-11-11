@@ -7,5 +7,5 @@ def solution(money):
 
 # 2.
 def solution(money):
-    answer = [money // 5500, money % 5500]
+    answer = [money // 5500, money % 5500] # divmod
     return answer
