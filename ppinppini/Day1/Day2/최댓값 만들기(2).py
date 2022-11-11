@@ -1,6 +1,11 @@
 # 나의풀이
-import random
-a=[1,2,-3,4,-5]
-random.randrange(a)
-1
+def solution(numbers):
+    answer = numbers[0] * numbers[1]
+    
+    for i in range(len(numbers)):
+        for j in range(i+1, len(numbers)):
+            if numbers[i]*numbers[j] > answer:
+                answer = numbers[i]*numbers[j]
+    
+    return answer
 
