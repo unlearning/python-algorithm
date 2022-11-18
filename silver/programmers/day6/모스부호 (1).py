@@ -9,7 +9,7 @@ def solution(letter):
     '-.--':'y','--..':'z'}
     s_letter = letter.split( ) # split() : str → list
     for i in s_letter:
-        if i in morse:
+        if i in morse: # else의 경우 패스하기 때문?
             answer += morse[i]
     return answer
 

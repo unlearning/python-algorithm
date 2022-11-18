@@ -6,7 +6,7 @@ def solution(age):
         6:'g', 7:'h', 8:'i',
         9:'j'
     }
-    return ''.join(map(str, [answer[int(x)] for x in list(str(age))])) # Q.
+    return ''.join(answer[int(x)] for x in str(age))
 
 # 2.
 def solution(age):
