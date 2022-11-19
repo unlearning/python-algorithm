@@ -11,5 +11,3 @@ def solution(my_string):
     s = ''.join(i if i.isdigit() else ' ' for i in my_string)
     # print(s) :    1 2  34 
     return sum(int(i) for i in s.split())
-
-print(solution("aAb1B2cC34oOp"))
