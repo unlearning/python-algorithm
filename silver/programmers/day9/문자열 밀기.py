@@ -3,20 +3,15 @@
 # ex. A + A = hellohello
 # ex. A * 2 = hellohello
 
-# 1. Why not?
 def solution(A, B):
-    answer = ''
-    
+    if A == B:
+        return 0
     for i in range(1, len(A) + 1):
         if A[-i:] + A[0:-i] == B:
             # print(A[-1:], A[0:-1]) → o hell
-            print(A[-2:], A[0:-2])
             # print(A[-2:], A[0:-2]) → lo hel
             return i
-        elif A == B:
-            return 0
-        else:
-            return -1
+    return -1 # for문의 첫 반복 뿐만 아니라 모든 반복을 거친 후에도, B가 될 수 없으면 -1 반환
 
 # 2.
 def solution(A, B):
